@@ -1,6 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-
+﻿
 using EasyLevel;
 
-Console.WriteLine("Hello, World!");
+var flowers = new string[] {"flower", "flow", "flight"};
+flowers.FindLongestCommonPrefix();
+Console.ReadLine();
 
